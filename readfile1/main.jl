@@ -20,6 +20,25 @@ function main()
    data,rows = read_data("data.txt",10,1,3)
    println("rows=",rows," mean=",mean(data)," sd=",std(data))
 
+   # 同じデータを辞書で得る
+   # 引数順: 1:ファイル名,2:キーの位置,3:値の位置
+   # 戻り値: data:読んだデータ
+   data = read_data("data.txt",1,3)
+   println("rows=",data.count," mean=",mean(values(data))," sd=",std(values(data)))
+
+   # ハッシュをベクトルに変換
+   # 方法1: 正攻法
+   n = maximum(keys(data))
+   datavec1 = zeros(Float64,n)
+   for i in keys(data)
+      datavec1[i] = data[i]
+   end
+   # 方法2: 簡潔法
+   datavec2 = [ haskey(data,i) ? data[i] : 0.0 for i=1:n ]
+
+   # 同じことの確認
+   println(datavec1 == datavec2)
+
    # 正常に終了
    return true
 end
