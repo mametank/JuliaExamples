@@ -1,5 +1,5 @@
 """
-    data,rows = read_file1(filename,n,keypos,datapos)
+    data,rows = read_data(filename,n,keypos,datapos)
     data = read_data(filename,keypos,datapos)
 
 ファイル `filename` を `n` 行読み込み、位置 `keypos` 列めをキー、`datapos` 列めを
