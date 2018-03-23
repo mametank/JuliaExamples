@@ -7,6 +7,7 @@
 #
 # シェル上から実行する場合
 # 
+#   shell$ julia main.jl
 #
 # 関数が定義されているファイルを読み込む
 include("readfile.jl")
