@@ -1,8 +1,8 @@
 # JuliaExamples
 
 チュートリアルとコード例を掲載します。
-すでに[優れたチュートリアル](https://github.com/bicycle1885/Julia-Tutorial/blob/master/Julia高速チュートリアル.ipynb)が公開されているので、そちらをご覧になるとよいでしょう。
-ここでは、Juliaの機能の完結な紹介にとどめます。
+すでに[優れたチュートリアル](https://github.com/bicycle1885/Julia-Tutorial/blob/master/Julia高速チュートリアル.ipynb)が公開されているので、Juliaの全体像を知りたい方は、そちらをご覧になるとよいでしょう。
+ここでは、Juliaの機能の簡潔な紹介をするにとどめます。
 
 ## チュートリアル
 
