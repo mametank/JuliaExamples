@@ -6,9 +6,9 @@
 
 ## チュートリアル
 
-- [セットアップ](https://github.com/mametank/JuliaExamples/blob/master/Julia-Setup-JP.ipynb)
-- [データ構造1: スカラと配列](https://github.com/mametank/JuliaExamples/blob/master/Julia-DataStructure1-JP.ipynb)
-- [文字列の処理](https://github.com/mametank/JuliaExamples/blob/master/Julia-String-JP.ipynb)
+- [セットアップ](https://github.com/mametank/JuliaExamples/blob/master/Julia-Setup-JP.ipynb) （[nbviewer](https://nbviewer.jupyter.org/github/mametank/JuliaExamples/blob/master/Julia-Setup-JP.ipynb)）
+- [データ構造1: スカラと配列](https://github.com/mametank/JuliaExamples/blob/master/Julia-DataStructure1-JP.ipynb) （[nbviewer](https://nbviewer.jupyter.org/github/mametank/JuliaExamples/blob/master/Julia-DataStructure1-JP.ipynb)）
+- [文字列の処理](https://github.com/mametank/JuliaExamples/blob/master/Julia-String-JP.ipynb) （[nbviewer](https://nbviewer.jupyter.org/github/mametank/JuliaExamples/blob/master/Julia-String-JP.ipynb)）
 
 ## サンプルコード
 
